@@ -22,6 +22,11 @@
 	  <servlet-class>com.servlets.SecondServletUsingGenericServlet</servlet-class>
   </servlet>
   
+    <servlet>
+	  <servlet-name>third</servlet-name>
+	  <servlet-class>com.servlets.ThirdServletUsingHttpServlet</servlet-class>
+  </servlet>
+  
   <!-- Mapping -->
   
   <servlet-mapping >
@@ -32,6 +37,11 @@
     <servlet-mapping >
   		<servlet-name>second</servlet-name>
   		<url-pattern>/second</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping >
+  		<servlet-name>third</servlet-name>
+  		<url-pattern>/third</url-pattern>
   </servlet-mapping>
   
 </web-app>
