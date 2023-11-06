@@ -17,11 +17,21 @@
 	  <servlet-class>com.servlets.LoginServlet</servlet-class>
   </servlet>
   
+  <servlet>
+	  <servlet-name>second</servlet-name>
+	  <servlet-class>com.servlets.SecondServletUsingGenericServlet</servlet-class>
+  </servlet>
+  
   <!-- Mapping -->
   
-  <servlet-mapping>
+  <servlet-mapping >
   		<servlet-name>first</servlet-name>
   		<url-pattern>/web</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping >
+  		<servlet-name>second</servlet-name>
+  		<url-pattern>/second</url-pattern>
   </servlet-mapping>
   
 </web-app>

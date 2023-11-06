@@ -9,9 +9,11 @@
 <body>
 <h1>Welcome to 
 home page of Servlet Project</h1>
-<p>This is my first project</p>
+<body>
+	<div>Servlet Web Pages!</div>
+	<h1><a href="web">First Servlet</a></h1>
+	<h2><a href="second">Second Servlet</a></h2>
+</body>
 
-<br>
- 
 </body>
 </html>
